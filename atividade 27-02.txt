@@ -1,0 +1,95 @@
+Algoritmo data de nascimento
+
+programa {
+  funcao inicio() {
+    real  ano, result
+    caracter nome
+    escreva ("informe o seu nome: ")
+    leia (nome)
+    escreva ("informe o ano do seu nascimento: ")
+    leia (ano)
+    result = 2023 - ano
+    escreva (result)
+
+
+  }
+}
+
+Algoritmo Consumo médio de um automóvel
+
+
+programa
+{
+
+funcao inicio()
+{
+real inicio, final, soma
+cadeia nome
+escreva ("informe o consumo inicial: " )
+leia (inicio)  
+escreva ("informe a distancia final: " )
+leia (final)
+soma = final - inicio
+limpa()
+escreva ("\nA distancia percorrida em KM é: ", soma )
+escreva ("\nO consumo percorrido é: L" + soma/10)
+
+
+Algoritmo Vendedor
+
+programa
+{
+
+funcao inicio()
+{
+cadeia nome
+inteiro soma, vendas, salario=1200, result
+escreva ("informe o nome do vendedor: ")
+leia (nome)
+escreva ("informe a quantidade de vendas: ")
+leia (vendas)
+soma = vendas*0.15
+result = soma + salario
+limpa ()
+escreva ("\n o nome do vendedor é:", nome)
+escreva ("\n o valor da comissão por vendas é de: R$ ", soma)
+escreva ("\n o valor total do salario R$", result)
+
+}
+}
+
+Algoritmo conversão de dólar para real
+
+programa
+{
+
+funcao inicio()
+{
+real valor, cotacao, result
+
+  escreva ("informe o valor que deseja converter R$: ")
+  leia (valor)
+  escreva ("informe a cotação do dia: ")
+  leia (cotacao)
+  result = valor / cotacao
+  limpa ()
+  escreva ("\n o valor de R$ para U$ é: ", result)
+
+
+}
+}
+
+Algoritmo Preço de custo de um produto
+
+programa {
+  funcao inicio() {
+    real valor_inicial, acrescimo, valor_final
+    escreva ("informe o valor do produto: ")
+    leia (valor_inicial)
+    escreva ("informe o acréscimento: ")
+    leia (acrescimo)
+
+    valor_final = valor_inicial+(valor_inicial*(acrescimo/100))
+    escreva ("o valor final é: R$", valor_final)
+  }
+}
